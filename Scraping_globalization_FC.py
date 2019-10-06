@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
-
 # Importing libraries #WORKING ONE UNTIL 1997
 import requests
 import pandas as pd
@@ -185,10 +179,3 @@ Nat_final_final = Nat_final_final.fillna(0)
 #The two final dataframes are exported as excel.
 Nat_final_final.to_excel("Nationality_Cycling.xlsx")
 Team_final_final.to_excel("Team_Cycling.xlsx")
-
-
-# In[ ]:
-
-
-
-
